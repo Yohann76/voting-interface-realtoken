@@ -1,11 +1,21 @@
-# Run project 
+# Voting Interface Realtoken
+
+This project aims to enable voting within the RealToken DAO. We use functions 3 (castVote) and 5 (castVoteWithReason) from the following contract: https://gnosisscan.io/address/0x4a5327347f077e72d2aab19f68ba8a7f12ec5d63#writeProxyContract.  
+
+You must vote using the address that holds the voting power.  
+
+In the "proposalId" parameter, enter the ID, for example: 97018566875849739057791829757781237329950408521603525975301422956278121248932.  
+
+Set the "support" parameter to 0 for AGAINST, 1 for FOR, or 2 for ABSTAIN.
+
+## Run project 
 
 make dev-run 
 make dev-kill 
 
-http://51.178.80.14:5173/
+Available in http://localhost:5173/
 
-# Technologies
+## Technologies
 
 - Vue 3 + Vite
 - Docker
@@ -14,17 +24,12 @@ http://51.178.80.14:5173/
 
 ## Screenshots
 
-### Example 1
+- Example 1
 ![Example 1](docs/assets/ex1.png)
 
-### Example 2
+- Example 2
 ![Example 2](docs/assets/ex2.png)
 
-# Vue 3 + Vite
-
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
-
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
 
 
 
