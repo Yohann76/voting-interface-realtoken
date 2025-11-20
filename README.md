@@ -12,6 +12,14 @@ http://51.178.80.14:5173/
 - Makefile
 - ethers.js
 
+## Screenshots
+
+### Example 1
+![Example 1](docs/assets/ex1.png)
+
+### Example 2
+![Example 2](docs/assets/ex2.png)
+
 # Vue 3 + Vite
 
 This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
